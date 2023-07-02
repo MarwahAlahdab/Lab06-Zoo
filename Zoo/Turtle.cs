@@ -3,7 +3,7 @@ namespace Zoo
 {
     //derived class
     //concrete class
-    public class Turtle : Reptile
+    public class Turtle : Reptile, ISwimmable
     {
 
         public override bool IsDangerous
@@ -46,6 +46,12 @@ namespace Zoo
             Console.WriteLine("The turtle is laying eggs.");
         }
 
+
+
+        public string Swim()
+        {
+            return "The turtle is swimming.";
+        }
 
     }
 }

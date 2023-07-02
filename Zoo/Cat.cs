@@ -3,7 +3,7 @@ namespace Zoo
 {
     //derived class
     //concrete class
-    public class Cat:Mammal
+    public class Cat: Mammal, IRunnable
     {
         public override string Hunt
         {
@@ -28,7 +28,7 @@ namespace Zoo
 
         public override string Sound()
         {
-            return  "The cat is meoing.";
+            return  "The cat is meowing.";
         }
 
         public override string Sleep()
@@ -39,6 +39,15 @@ namespace Zoo
         public override void GiveBirth()
         {
             Console.WriteLine("The cat is giving birth to kittens.");
+        }
+
+
+
+        // Interface implementation
+
+        public string Run()
+        {
+            return "The cat is running.";
         }
 
     }

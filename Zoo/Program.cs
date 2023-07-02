@@ -37,5 +37,12 @@ internal class Program
 
 
 
+        //Lab 7
+        Lion lion2 = new Lion("l2", 6, "Male", 4);
+        lion2.Swim();
+        lion2.Run();
+
+
+
     }
 }

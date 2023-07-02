@@ -37,3 +37,26 @@ Each animal type has its own implementation of behaviors like eating, sleeping, 
 ### Example from the project:
 The Animal class is an abstract class, It defines abstract methods such as eating and sleeping.
 The concrete animal classes like Lion, Cat, and Dog inherit from the Animal class, providing specific implementations.
+
+
+
+
+------------
+
+### What an interface?
+
+Interfaces in C# provide a way to define a contract or a set of related functionalities that a class can implement.
+
+**Interface defines what a class should do without specifying how it should be done.**
+
+### Interfaces in this project:
+
+I have 2 interfaces in this project (ISwimmable, IRunnable), So i implement them in the concrete classes based on which animal is able to run or swim
+
+for example, the cat, lion and dog implements IRunnable.
+lion and turtle implements ISwimmable
+snake doesn't implement any interface as its not able to swim or run.
+
+## Updated UML Diagram
+
+![](./Lab6.drawio.png)

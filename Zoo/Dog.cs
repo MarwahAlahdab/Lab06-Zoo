@@ -3,7 +3,7 @@ namespace Zoo
 {
     //derived class
     //concrete class
-    public class Dog : Mammal
+    public class Dog : Mammal , IRunnable
     {
 
         public override string Hunt
@@ -44,6 +44,13 @@ namespace Zoo
         {
             Console.WriteLine("The dog is giving birth to puppies.");
         }
+
+
+        public string Run()
+        {
+            return "The dog is running.";
+        }
+
 
     }
 }

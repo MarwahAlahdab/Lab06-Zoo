@@ -1,33 +1,40 @@
 ﻿<Properties StartupConfiguration="{0FB2021B-2AF9-4E94-9DD6-E124B02BA5A5}|Default">
-  <MonoDevelop.Ide.ItemProperties.Zoo PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Animal.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../ZooTests/UnitTest1.cs">
     <Files>
-      <File FileName="Zoo.cs" Line="51" Column="1" IsPinned="True" />
-      <File FileName="Program.cs" Line="25" Column="50" IsPinned="True" />
-      <File FileName="Animal.cs" Line="24" Column="40" />
-      <File FileName="Mammal.cs" Line="33" Column="53" />
-      <File FileName="Replite.cs" Line="32" Column="1" />
-      <File FileName="Snake.cs" Line="4" Column="33" />
-      <File FileName="Turtle.cs" Line="4" Column="34" />
+      <File FileName="Zoo.cs" Line="44" Column="33" IsPinned="True" />
+      <File FileName="Program.cs" Line="41" Column="38" IsPinned="True" />
+      <File FileName="Animal.cs" Line="45" Column="8" />
+      <File FileName="Cat.cs" Line="31" Column="37" />
+      <File FileName="Snake.cs" Line="14" Column="1" />
+      <File FileName="Turtle.cs" Line="53" Column="45" />
+      <File FileName="Dog.cs" Line="51" Column="41" />
+      <File FileName="Lion.cs" Line="31" Column="40" />
+      <File FileName="../ZooTests/UnitTest1.cs" Line="129" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Zoo" expanded="True">
-            <Node name="Zoo" expanded="True">
-              <Node name="Animal.cs" selected="True" />
-            </Node>
+            <Node name="Zoo" expanded="True" />
+            <Node name="ZooTests" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
       </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Zoo" expanded="True" selected="True" />
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.ZooTests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Zoo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
 </Properties>
